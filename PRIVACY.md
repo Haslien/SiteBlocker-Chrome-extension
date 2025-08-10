@@ -24,4 +24,4 @@ We do **not** collect, store, or share any personal information from users.
 
 ## Contact
 If you have any questions or concerns about privacy, please contact:  
-`your-email@example.com`
+`mathias@haslien.no`
