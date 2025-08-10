@@ -1,0 +1,60 @@
+:root { color-scheme: dark; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centered content */
+.blocked-wrap {
+  text-align: center;
+  padding: 16px;
+}
+.blocked-wrap.compact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Fixed to window top-right */
+.settings-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  background: transparent;
+  color: #6b7280;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 9999;
+}
+.settings-btn:hover {
+  color: #a0a7b0;
+  background: rgba(255,255,255,0.05);
+}
+
+.blocked-icon {
+  width: 42px;
+  height: 42px;
+}
+
+.blocked-wrap h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.blocked-wrap p {
+  margin: 0;
+  color: #bfbfbf;
+  font-size: 0.95rem;
+}
