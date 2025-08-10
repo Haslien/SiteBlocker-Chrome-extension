@@ -109,3 +109,5 @@ Have an idea for improvement?
 ---
 
 **Enjoy your focus time!**
+
+Hi, my name is Chrissy B and I approve this extension! 10/10
